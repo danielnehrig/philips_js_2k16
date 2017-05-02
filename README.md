@@ -23,3 +23,4 @@ Or into what ever folder your hass is located
 
 # Source 
 * https://github.com/home-assistant/home-assistant
+* https://github.com/danielperna84/ha-philipsjs
