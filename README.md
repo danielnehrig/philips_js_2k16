@@ -19,4 +19,4 @@ Standby Does Work
 cp ./__init__.py ~/.homeassistant/deps/haphilipsjs/
 cp ./philips_js.py /usr/lib/python3.5/site-packages/homeassistant/components/media_player/
 
-Or into what ever folder your hass is located.
+Or into what ever folder your hass is located
