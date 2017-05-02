@@ -12,8 +12,8 @@ import logging
 
 LOG = logging.getLogger(__name__)
 BASE_URL = 'https://{0}:1926/6/{1}'
-USERNAME = '9DQq99EWN8w9z7hx'
-PASSWORD = '84c6598605785c053a4092de8feb93f13908d4a5519ef44beeffd7fd4b6df113'
+USERNAME = 'PAIRING USERNAME'
+PASSWORD = 'PAIRING PASSWORD'
 secret_key="ZmVay1EQVFOaZhwQ4Kv81ypLAZNczV9sG4KkseXWn1NEk6cXmPKO/MCa9sryslvLCFMnNe4Z4CPXzToowvhHvA=="
 TIMEOUT = 5.0
 CONNFAILCOUNT = 5
@@ -39,7 +39,7 @@ class PhilipsTV(object):
                 LOG.debug("Connfail: %i", self._connfail)
                 self._connfail -= 1
                 return None
-            resp = requests.get(BASE_URL.format(self._host, path), timeout=TIMEOUT, auth=HTTPDigestAuth('9DQq99EWN8w9z7hx', '84c6598605785c053a4092de8feb93f13908d4a5519ef44beeffd7fd4b6df113'), verify=False)
+            resp = requests.get(BASE_URL.format(self._host, path), timeout=TIMEOUT, auth=HTTPDigestAuth(USERNAME, PASSWORD), verify=False)
             self.on = True
             return json.loads(resp.text)
         except requests.exceptions.RequestException as err:
