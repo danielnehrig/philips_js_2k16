@@ -5,10 +5,10 @@ this makes it somewhat useable in homeassistant
 
 Differences Between the Joint Space Versions
 
-2k16 TV's Use :
-HTTPS over port 1926 instead of 1925
-basic http authentication aswell
-They Removed the Channels And Sources Feature atleast i couldn't get it to work for now
+## 2k16 TV's Use :
+* HTTPS over port 1926 instead of 1925
+* basic http authentication aswell
+* They Removed the Channels And Sources Feature atleast i couldn't get it to work for now
 
 notes :
 Device State Is always ON
