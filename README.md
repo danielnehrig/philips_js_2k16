@@ -20,3 +20,6 @@ Standby Does Work
 * cp ./philips_js.py /usr/lib/python3.5/site-packages/homeassistant/components/media_player/
 
 Or into what ever folder your hass is located
+
+# Source 
+* https://github.com/home-assistant/home-assistant
