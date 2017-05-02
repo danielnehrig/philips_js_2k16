@@ -12,8 +12,8 @@ import logging
 
 LOG = logging.getLogger(__name__)
 BASE_URL = 'https://{0}:1926/6/{1}'
-USERNAME = 'PAIRING USERNAME'
-PASSWORD = 'PAIRING PASSWORD'
+USERNAME = 'PAIRING USERNAME' # Edit These Lines to your Credentials
+PASSWORD = 'PAIRING PASSWORD' # Edit These Lines to your Credentials
 secret_key="ZmVay1EQVFOaZhwQ4Kv81ypLAZNczV9sG4KkseXWn1NEk6cXmPKO/MCa9sryslvLCFMnNe4Z4CPXzToowvhHvA=="
 TIMEOUT = 5.0
 CONNFAILCOUNT = 5
